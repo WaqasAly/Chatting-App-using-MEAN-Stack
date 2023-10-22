@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+
+.custom-row {
+  width: 80%; /* Adjust the width percentage as desired */
+  margin: 135px auto; /* Center the row horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-row {
+    width: 100%;
+    margin: 135 auto;
+  }
+}
+    

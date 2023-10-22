@@ -1,0 +1,26 @@
+<div class="container d-flex justify-content-center align-items-center h-100">
+    <div class="row custom-row border border-dark rounded p-5">
+        <div class="col-md-12">
+            <form class="row g-3">
+                <div class="mb-3 col-md-6">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" #email>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" #password>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="name" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="email" placeholder="Waqas" #name>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="email" placeholder="Rashid" #lastName>
+                </div>
+                <button (click)="signUp(email.value, password.value, name.value, lastName.value)" class="btn btn-primary col-md-3 mx-auto">Sign Up</button>
+                <p class="d-flex justify-content-center">Already have an Account?<a href="log-in"> Login</a></p>
+            </form>
+        </div>
+    </div>
+</div>

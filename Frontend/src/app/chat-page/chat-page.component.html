@@ -1,0 +1,22 @@
+
+<div class='body'>
+<div class="">
+  <div class="chat-title">
+    <h1>Fabio Ottaviani</h1>
+    <h2>Supah</h2>
+    <figure class="avatar">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure>
+  </div>
+  <div class="messages" *ngFor="let message of messages">
+    <div class="">{{message.sender + ': ' + message.des}}</div>
+  </div>
+  <footer>
+
+    <div class="message-box">
+      <textarea type="text" class="message-input" placeholder="Type message..."></textarea>
+      <button type="submit" class="message-submit">Send</button>
+    </div>
+  </footer>
+
+</div>
+</div>

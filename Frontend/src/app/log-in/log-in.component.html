@@ -1,0 +1,22 @@
+
+<div class="container d-flex justify-content-center align-items-center h-100">
+    <div class="row custom-row border border-dark rounded p-5">
+      <div class="col-md-12">
+        <form class="row g-3">
+          <div class="mb-3 col-md-12">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" #email>
+          </div>
+          <div class="mb-3 col-md-12">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" #pass>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-between align-items-md-center">
+            <button (click)="signIn(email.value, pass.value)" class="btn btn-primary col-md-5">Sign In</button>
+            <p class="text-md-end mt-3 mt-md-0">Don't have an Account? <a href="sign-up"> SignUp</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

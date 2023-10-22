@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@angular/router": "^16.0.5",
+    "@ionic/angular": "^7.0.12",
+    "events": "^3.3.0",
+    "parse": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/parse": "^3.0.4"
+  }
+}

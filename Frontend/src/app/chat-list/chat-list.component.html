@@ -1,0 +1,10 @@
+<section class="body">
+    <div id="centerContainer">
+      <select name="scenario" id="scenario" #users class="select-style">
+        <option value="">Select User</option>
+        <option  *ngFor="let user of chats" [value]="user.id">{{ user.username }}</option>
+      </select>
+      <button id="proceedBtn" (click)="openChat(users.value)" >Proceed</button>
+    </div>
+  </section>
+  
